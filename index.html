@@ -67,15 +67,40 @@
       width: 100%;
       bottom: 0;
     }
+
+    .construction-container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Asegura que esté por encima de otros elementos */
+}
+
+.oops {
+    color: #ff5733;
+    font-size: 2em;
+}
+
+.oopsp {
+    color: #555;
+    font-size: 1.2em;
+}
   </style>
 </head>
 <body>
 
   <header>
     <h1>Hello there, I'm Vica</h1>
-    <p>Welcome to my GitHub repository! 👋</p>
   </header>
-
+    <div class="construction-container">
+        <h1 class="oops">🚧 Oops! This site is under construction! 🚧</h1>
+        <p class="oopsp">Sorry for the inconvenience. We're busy building something awesome for you.</p>
+    </div>
   <section>
     <h2>About me</h2>
     <p>
